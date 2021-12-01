@@ -144,7 +144,7 @@ html{
     display: flex;
     position: relative;
     align-items: baseline;
-    width: 30vw;
+    width: 20vw;
     min-height: 78.5vh;
     flex-direction: column;
     border: gray solid .01rem;
