@@ -3,6 +3,7 @@
     --secundary-color:#2f2934;
     --nav-color:#c2ccd1;
     --user-color:white;
+    --buttons-color:#238636;
 }
 
 body{
@@ -56,6 +57,7 @@ body{
 }
 .header-nav__button{
     margin-left: 1rem;
+   
     
 }
 
@@ -70,11 +72,71 @@ body{
 
 .main-container{
     display: flex;
+   
     flex-direction: column;
     width: 100vw;
     height: 75vh;
 }
+.main-section{
+    display: flex;
+    flex-direction: column;
+    border: #000000 solid .2rem;
+    width: 100vw;
+    height: 75vh;
+}
+.card-history{
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    background-color:white;
+}
+.card-history__user{
+    width: 50vw;
+    border: #30363d solid .2rem;
+    border-radius: .5rem    
+    
+}
+.card-history__commit{
+    width: 50vw;
+    border: #30363d solid .2rem;
+    border-radius: .5rem;
 
+}
+
+
+.side-bar{
+    width: 100vw;
+    height: 20vh;
+    
+    background-color: #2f2934;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap
+}
+.side-bar__list{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.side-bar__title{
+ color: grey;
+ font-size: 1.5rem
+}
+.side-bar__item{
+    
+    border-radius: 2rem;
+    margin-top: 1rem;
+    
+    
+}
+.side-bar__link{
+    text-decoration: grey;
+    color: #f8f9f9;
+    font-size: 1.5rem
+}
 /* Estilos del footer */
 .footer-container{
    order: ;
@@ -82,10 +144,10 @@ body{
 }
 .user-date{
     display: flex;
-    border-radius: 1rem;
+    
     justify-content: space-evenly;
     align-items: center;
-    background-color:#2f2934;
+    background-color:grey;
     width: 100vw;
     height: 10vh;
 }
@@ -97,6 +159,6 @@ body{
 
 .user-date__link{
     text-decoration: none;
-    color:white;
+    color:#f8f9f9;
     font-size: 3rem;
 }
