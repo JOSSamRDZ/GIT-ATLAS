@@ -4,6 +4,12 @@
     --nav-color:#c2ccd1;
     --user-color:white;
 }
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 /* Estilos de header */
 .header-container{
     border-radius: 1rem;
@@ -63,8 +69,34 @@
 /* Estilos del main */
 
 .main-container{
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 75vh;
 }
 
 /* Estilos del footer */
+.footer-container{
+   order: ;
+
+}
+.user-date{
+    display: flex;
+    border-radius: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#2f2934;
+    width: 100vw;
+    height: 10vh;
+}
+
+.user-date__button{
+    list-style: none;
+
+}
+
+.user-date__link{
+    text-decoration: none;
+    color:white;
+    font-size: 3rem;
+}
