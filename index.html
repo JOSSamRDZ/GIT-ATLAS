@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/phone.css">
+    <link rel="stylesheet" href="./styles/tablet.css" media="screen and (min-width:600px)">
+    <link rel="stylesheet" href="./styles/desktop.css" media="screen and (min-width:800px)">
     <script src="https://kit.fontawesome.com/28c3ed824a.js" crossorigin="anonymous"></script>
     <title>GIT-ATLAS</title>
 </head>
@@ -32,15 +34,18 @@
         
         <section class="main-section">
            <div class="card-history">
-               <div class="card-history__user"></div>
-               <div class="card-history__commit"></div>
+               <div class="card-history__card"><p class="card-history__text"><a href=""><i class="fas fa-code-branch"></i> main <i class="fas fa-sort-down"></i></p></div></a>
+               <div class="card-history__card"><p><a href=""><i class="fas fa-code-branch"></i> 2 branches</a></p></div>
            </div>
-            
-               
+           <div class="card-proyect">
+               <h1 class="card-proyect__title"> Consolidacion de las Milicias Hispano-índigenas 1519-1545</h1>
+                <h4 class="card-proyect__resume">Resumen</h4>
+                <p class="card-proyect__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsam inventore quia, doloremque laboriosam nobis assumenda quas deleniti repudiandae nihil quasi odit aspernatur illum expedita perferendis quae temporibus ab dicta!
+                Dolorem consequuntur a expedita repellendus odio! Deleniti praesentium, facere ipsum perspiciatis porro quo, provident beatae expedita asperiores placeat obcaecati sed consequatur fugit quod adipisci ipsam. Iste neque rerum maxime velit!
+                Rem soluta veritatis reprehenderit possimus quibusdam saepe est, optio non nulla cumque consequatur corrupti, placeat adipisci? Nemo explicabo facere optio aut libero quaerat provident, aspernatur quam aliquam obcaecati dolor excepturi.
+                </p>
 
-            
-        
-
+           </div>
         </section>
         <section class="side-bar">
             <ul class="side-bar__list up left">
@@ -64,14 +69,18 @@
 
         </section>
     </main>
-
-    <footer footer-container>
+    <section class="user-container">
         <ul class="user-date">
             <li class="user-date__button"><a href="" class="user-date__link"><i class="fas fa-bell"></i> </a></li>
             <li class="user-date__button"><a href="" class="user-date__link"><i class="far fa-plus-square"></i><i class="fas fa-sort-down"></i></a></li>
             <li class="user-date__button" id="user"><a href="" class="user-date__link"><i class="fas fa-portrait"></i></a></li>
            
         </ul>
+    </section>
+
+    <footer class="footer-container">
+       
+       
     </footer>
 </body>
 </html>

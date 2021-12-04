@@ -1,0 +1,42 @@
+.header-container{
+    width: 100vw;
+   height: 10vh;
+}
+.page-icon{
+   
+   
+}
+.page-icon__text{
+    font-size: 1.59rem;
+}
+.main-container{
+    flex-direction: row;
+    height: 80vh;
+
+   
+}
+
+.main-section div{
+    width: 70vw;
+}
+.card-proyect{
+    width: 80vw;
+}
+.side-bar{
+    width: 30vw;
+   height: 90vh;
+    order: 1;
+}
+
+.main-section{
+    
+    width: 85vw;
+    order: 2;
+    
+}
+
+.footer-container{
+    width: 100vw;
+    height: 10vh;
+   
+}

@@ -34,6 +34,8 @@ body{
     font-size: .5rem;
     margin-bottom: .5rem;
 }
+   
+
 .page-icon__image{
     width: 90%;
     height: 60%;
@@ -43,7 +45,6 @@ body{
     width:8rem;
     font-size: .9rem;
     position: relative;
-    
     text-align: center;
     color:white;
    
@@ -72,15 +73,16 @@ body{
 
 .main-container{
     display: flex;
-   
     flex-direction: column;
     width: 100vw;
     height: 75vh;
 }
 .main-section{
     display: flex;
+    
+    align-items: center;
     flex-direction: column;
-    border: #000000 solid .2rem;
+  
     width: 100vw;
     height: 75vh;
 }
@@ -88,22 +90,46 @@ body{
     width: 100vw;
     height: 7vh;
     display: flex;
+    justify-content: center;
+   
     background-color:white;
 }
-.card-history__user{
-    width: 50vw;
-    border: #30363d solid .2rem;
-    border-radius: .5rem    
-    
-}
-.card-history__commit{
-    width: 50vw;
+.card-history__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+    margin-right: .5rem;
+    margin-top: .5rem;
     border: #30363d solid .2rem;
     border-radius: .5rem;
-
+    background-color: var(--secundary-color);
+    
+}
+.card-history__card a{
+    text-decoration: none;
+    color: #c2ccd1;
+    font-size: 1.5rem;
 }
 
+.card-proyect{
+    position: relative;
+    top: .5rem;
+    width: 90vw;
+    border: var(--secundary-color) solid .2rem;
+}
+.card-proyect__title{
+    text-align: center;
+    border-bottom: black solid 0.2rem; 
+}
 
+.card-proyect__resume{
+    margin-bottom: .5rem;
+}
+.card-proyect__text{
+    text-align: justify;
+    margin: .3rem;
+}
 .side-bar{
     width: 100vw;
     height: 20vh;
@@ -138,9 +164,10 @@ body{
     font-size: 1.5rem
 }
 /* Estilos del footer */
-.footer-container{
-   order: ;
-
+.user-container{
+    width: 100vw;
+    height: 10vh;
+   
 }
 .user-date{
     display: flex;
@@ -150,6 +177,8 @@ body{
     background-color:grey;
     width: 100vw;
     height: 10vh;
+   
+    
 }
 
 .user-date__button{
