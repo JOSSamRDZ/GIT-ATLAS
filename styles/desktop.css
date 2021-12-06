@@ -2,7 +2,9 @@
     width: 100vw;
    height: 10vh;
 }
-.page-icon{
+.header-container .page-icon{
+   position: relative;
+   right: 20rem;
    
    
 }
@@ -23,8 +25,8 @@
     width: 80vw;
 }
 .side-bar{
-    width: 30vw;
-   height: 90vh;
+    width: 20vw;
+   height: 80vh;
     order: 1;
 }
 

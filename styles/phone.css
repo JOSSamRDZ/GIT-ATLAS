@@ -13,7 +13,7 @@ body{
 }
 /* Estilos de header */
 .header-container{
-    border-radius: 1rem;
+  
     width: 100vw;
     height: 15vh;
     justify-content: center;
